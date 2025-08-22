@@ -30,6 +30,14 @@
 - Showing only the essential details and hiding the internal implementation.
 - Example: You use car.start() without knowing how the engine works.
 
+When you create an abstract class, you have to use the keyword "abstract".
+It is usually used:
+- to say a class is incomplete - meaning it is there, but we cant create objects from it because it does not have all the details in it
+- to force child classes to implement its methods. So for example, 
+`abstract void makeSound();` is like saying, every animal must have its own sound but i dont know it yet, so you(child class) figure it out.
+
+
+
 ## Encapsulation
 - Wrapping data (variables) and methods (functions) into a single unit (class).
 - Protects data using access modifiers (private, public, protected).
