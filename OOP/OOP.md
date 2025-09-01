@@ -52,6 +52,17 @@ It is usually used:
 - Multilevel
 - Hierarchical
 - Hybrid
+-(Java doesnt support Multiple inheritance and it is instead done with the help of interfaces)
+
+### Interfaces
+- An Interface is defined as an abstract type used to specify the behaviour of a class. 
+- It is a blueprint of a behaviour.
+- It contains static constants and abstract methods.
+- Best way to understand it is: in a superhero game, the superhero must be able to 
+    - `fly()`
+    - `savePeople()`
+    - `fightVillain()`
+    So here, these are interfaces. It doesnt explain how the superhero flies or how he saves people. It says this is what the superhero should be able to do.
 
 ## Polymorphism
 - The ability of one function, method, or operator to behave differently based on context.
