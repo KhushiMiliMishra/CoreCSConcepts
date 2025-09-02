@@ -41,7 +41,21 @@ It is usually used:
 ## Encapsulation
 - Wrapping data (variables) and methods (functions) into a single unit (class).
 - Protects data using access modifiers (private, public, protected).
+- We can hide the private data and give controlled access to pubic data.
 - Basically, hiding the internal details/data of a class and controlling the access through methods.
+- For example: you press a button in an ATM machine and it gives you cash. You dont see how the machine is doing it on the inside (especially coz it is private). This is encapsulation.
+- Steps to follow if you dont know how to encapsulate:
+    1. identify the sensitive data (that shouldnt be accessed by outsiders)
+    2. make those variables private (like `balance` in `bankAccount` or `DOB` in `Person`)
+    3. provide public methods to access/modify that data
+        here, you have:
+        - getters(returns value requested) 
+        Example: `public double getBalance(){ return balance; }` 
+        - setters(changes values with mentioned rules)
+        Example: `public void setName(String name) {this.name=name;}`
+
+
+
 
 ## Inheritance
 - One class can acquire properties and behaviors of another class.
@@ -76,3 +90,12 @@ It is usually used:
 ## Message Passing
 - Objects communicate by sending and receiving messages (method calls).
 - Example: object.sendMessage("Hello", object2).
+
+
+## Constructors
+- A constructor is a special method in a class that
+    - runs automatically when we create a new object
+    - is used to set up initial values for the object
+- The name of the constructor should be the same as the class name
+- There is no return type for constructors
+I have given an example of using constructors in the `Library.java` program!

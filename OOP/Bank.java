@@ -1,5 +1,5 @@
 package OOP;
-
+// ENCAPSULATION PROGRAM
 class Bank {
     private int balance;  // hidden (cannot be accessed directly)
 
